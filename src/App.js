@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import './App.css';
 function App() {
   console.log("something")
+  console.log("test")
   const [posts, setPosts] = useState([]);
   const [showModal, setShowModal] = useState(false);
   const [id, setId] = useState();
